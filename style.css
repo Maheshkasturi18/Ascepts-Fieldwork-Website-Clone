@@ -1,0 +1,197 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #f8f8f8;
+}
+
+.navbar  .nav-link{
+    color: black;
+    font-weight: bold;
+}
+
+.item-list a:hover, .dropdown a:hover {   
+    color: #3a56a1;
+}
+
+/* dropdown */
+
+.dropdown-content{
+    width: 150px;
+   padding: 10px;
+   display: none;
+   position: absolute;
+}
+
+.dropdown-content li a:hover{
+    color: #3a56a1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+
+
+
+/* home */
+
+.postn{
+    height: 370px;
+}
+
+.postn::before{
+
+    content: "";
+    position: absolute;
+    left: 0;
+    background: url(img/img1.jpg);
+    height: 55%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    z-index: -1;
+}
+
+.hero1 h1{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.hero2 h1{
+    font-size: 40px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+/* aboutus */
+
+#about-aspects-heading {
+    background-color: #3a56a1;
+    border-radius: 8px;
+    border: 2px solid black;
+    padding: 10px 10px;
+    color: white;
+}
+
+#about-aspects-content{
+    padding: 15px 64px;
+    font-weight: bold;
+}
+
+
+
+
+/* services */
+
+.services{
+    background-color: #3a56a1;
+}
+
+#s-bg1{
+    background-color: #f5ebeb;
+}
+
+#s-bg2{
+    background-color: #dcebdd;
+}
+
+#s-bg3{
+    background-color: #f5efd8;
+}
+
+
+
+
+/* contact us */
+
+.contactus{
+    background-color: #3a56a1;
+}
+
+#textarea{
+    height: 200px;
+}
+
+#contactus-img{
+    width: 90%;
+}
+
+
+
+
+/* footer */
+
+.fb{
+    color: #3b5998;
+}
+
+.ig{
+    color: #125688;
+}
+
+.twt{
+    color: #55acee;
+}
+
+.in{
+    color: #007bb5;
+}
+
+.yt{
+    color: #bb0000;
+}
+
+
+
+.copyright{
+    background-color: black;
+}
+
+.copyright a{
+    text-decoration: none;
+}
+
+.copyright a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
