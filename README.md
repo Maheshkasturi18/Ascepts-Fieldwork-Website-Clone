@@ -1,5 +1,1 @@
-# Created a website using BootStrap
-
-
-
-##fdvshjjhhdgdbcd
+# Created a website clone using BootStrap
